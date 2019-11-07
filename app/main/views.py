@@ -15,7 +15,8 @@ def index():
                 'nome': personaggio.nome,
                 'progressivo': i,
                 'tipologia': personaggio.tipologia.tipologia,
-                'allineamento': personaggio.allineamento.allineamento
+                'allineamento': personaggio.allineamento.allineamento,
+                'descrizione': personaggio.descrizione,
             }
             response.append(personaggio_response)
 
